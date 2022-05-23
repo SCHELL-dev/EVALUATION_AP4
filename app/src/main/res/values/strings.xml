@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Volley Club Nîmes</string>
+    <string name="txtBtnAdherent">Adherent</string>
+    <string name="txtBtnEntraineur">Entraineur</string>
+    <string name="txtBtnMembre">Membre d\'association</string>
+    <string name="txtMenuRechercher">Rechercher un cours</string>
+    <string name="txtMenuPresentation">Présentation du club</string>
+    <string name="txtMenuParticipation">Participation à un cours</string>
+    <string name="txtContact">Contact</string>
+    <string name="txtEquipe">Equipe</string>
+    <string name="txtCroissance">Croissance</string>
+    <string name="txtPageAdherent">Bienvenue sur la page adhérent</string>
+    <string name="txtPageEntraineur">Bienvenue sur la page entraineurs</string>
+    <string name="txtPageMembre">Bienvenue sur la page membres</string>
+    <string name="btnRetour">Retour</string>
+    <string name="btnConfirmerReservation">Confirmer</string>
+    <string name="btnAnnulerReservation">Annuler</string>
+    <string name="txtReservation">Réservation</string>
+    <string name="txtQuestionReservation">Voulez vous réserver le cours Senior ?</string>
+    <string name="txtEditRecherche">Entrez une catégorie</string>
+    <string name="btnRecherche">OK</string>
+    <string name="txtAdherentRecherche">Titre demandé</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adherent">
+
+    <TextView
+        android:id="@+id/txtPageAdherent"
+        android:layout_width="281dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="65dp"
+        android:text="@string/txtPageAdherent"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRetourAdherent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="165dp"
+        android:text="@string/btnRetour"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPageAdherent" />
+
+    <TextView
+        android:id="@+id/titreDemande"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="168dp"
+        android:text="@string/txtAdherentRecherche"
+        app:layout_constraintBottom_toTopOf="@+id/btnRetourAdherent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
